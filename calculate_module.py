@@ -81,7 +81,7 @@ def Calculate_Price():
     
     
 
-def Recommned_Market(df_essential, distance):
+def Recommend_Market(df_essential, distance):
     gredients = []    #리스트 선언
     groc = (input('원하는 재료를 모두 입력하시오: ').split())
     gredients.append(groc)
